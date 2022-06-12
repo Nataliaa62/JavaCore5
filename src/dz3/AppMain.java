@@ -18,7 +18,7 @@ public class AppMain {
         Orange orange2 = new Orange(1.5f);
         Orange orange3 = new Orange(1.5f);
 
-        //Создаем списки фруктов (яблоки в апельсины нельзя положить, т.к.указали класс)
+        //Создаем списки фруктов (яблоки в апельсины нельзя положить, т.к.указали класс)   55
         ArrayList<Apple> appleArrayList = new ArrayList<>();
         appleArrayList.add(apple1);
         appleArrayList.add(apple2);
@@ -52,3 +52,4 @@ public class AppMain {
 
     }
 }
+////////////////////
