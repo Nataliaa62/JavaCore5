@@ -24,8 +24,14 @@ public class DailyForecast {
     @JsonProperty("Link")
     public String link;
 
-    public Date getDate() {
-        return date;
+    public DailyForecast(String string, String string1, String string2, String string3) {
+    }
+
+    public DailyForecast() {
+    }
+
+    public String getDate() {
+        return String.valueOf(date);
     }
 
     public void setDate(Date date) {

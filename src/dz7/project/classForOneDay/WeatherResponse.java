@@ -2,14 +2,13 @@ package dz7.project.classForOneDay;
 
 import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
 import com.fasterxml.jackson.annotation.JsonProperty;
-import dz7.project.classForOneDay.Temperature;
 
 import java.util.Date;
 
 @JsonIgnoreProperties(ignoreUnknown = true)
 public class WeatherResponse{
 
-                @JsonProperty("LocalObservationDateTime")
+               @JsonProperty("LocalObservationDateTime")
                 public Date localObservationDateTime;
                 @JsonProperty("EpochTime")
                 public int epochTime;
@@ -34,9 +33,17 @@ public class WeatherResponse{
 
 
 
+    public WeatherResponse(int anInt, String string, String resultSetString, String setString, double aDouble) {
+    }
 
-        public Date getLocalObservationDateTime() {
-                return localObservationDateTime;
+    public WeatherResponse(String string, String resultSetString, String setString, double aDouble) {
+    }
+
+    public WeatherResponse() {
+    }
+
+    public String getLocalObservationDateTime() {
+                return String.valueOf(localObservationDateTime);
         }
 
         public void setLocalObservationDateTime(Date localObservationDateTime) {

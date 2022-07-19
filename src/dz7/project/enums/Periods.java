@@ -1,4 +1,4 @@
-package lesson7.project.enums;
+package dz7.project.enums;
 
 public enum Periods {
     NOW,

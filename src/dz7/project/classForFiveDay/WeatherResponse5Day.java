@@ -11,6 +11,12 @@ public class WeatherResponse5Day {
     @JsonProperty("DailyForecasts")
     public ArrayList<DailyForecast> dailyForecasts;
 
+    public WeatherResponse5Day(String string, String string1, String string2, double aDouble) {
+    }
+
+    public WeatherResponse5Day() {
+    }
+
     public String toString() {
         return " " + dailyForecasts;
 
